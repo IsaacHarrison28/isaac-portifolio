@@ -1,7 +1,9 @@
 "use client";
+import Image from "next/image";
 import { motion } from "framer-motion";
-import { ArrowRight, Download, Github, Linkedin } from "lucide-react";
-import { personalInfo } from "@/data";
+import { ArrowRight, Download } from "lucide-react";
+import { LinkedinIcon, GithubIcon } from "@/app/components/Icons";
+import { personalInfo } from "@/app/lib/data";
 
 export default function Hero() {
   return (
@@ -18,7 +20,7 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
-            Available for Internship / Junior Roles
+            Available
           </div>
 
           <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
@@ -63,35 +65,39 @@ export default function Hero() {
           {/* Socials */}
           <div className="flex gap-4">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/isaac-harrison/"
               className="p-3 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-primary hover:text-white transition-colors"
+              target="_blank"
             >
-              <Linkedin size={20} />
+              <LinkedinIcon />
             </a>
             <a
-              href="#"
+              href="https://github.com/IsaacHarrison28"
               className="p-3 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-primary hover:text-white transition-colors"
+              target="_blank"
             >
-              <Github size={20} />
+              <GithubIcon />
             </a>
           </div>
         </motion.div>
 
-        {/* Right Content (Image Placeholder) */}
+        {/* Image container */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="relative flex justify-center"
+          className="relative flex justify-center items-center"
         >
-          {/* Replace this div with your Next/Image of the 3D avatar or a professional photo */}
-          <div className="w-full max-w-md aspect-square rounded-3xl bg-gradient-to-tr from-primary/20 to-accent/20 border border-primary/20 flex items-center justify-center relative">
-            <span className="text-gray-400 font-medium">
-              Add Your 3D Avatar / Photo Here
-            </span>
-            {/* Decorative elements */}
-            <div className="absolute top-10 -right-10 w-20 h-20 bg-accent/30 rounded-full blur-2xl"></div>
-            <div className="absolute bottom-10 -left-10 w-32 h-32 bg-primary/30 rounded-full blur-3xl"></div>
+          <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-accent/20 rounded-full blur-3xl transform scale-110 -z-10"></div>
+
+          <div className="relative w-full max-w-md aspect-square rounded-3xl overflow-hidden border-2 border-primary/20 shadow-xl bg-gradient-to-b from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900">
+            <Image
+              src="/avatar.JPG"
+              alt="Isaac Harrison Tembo"
+              fill
+              className="object-cover object-top"
+              priority
+            />
           </div>
         </motion.div>
       </div>

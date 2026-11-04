@@ -9,7 +9,6 @@ export const personalInfo = {
   phone: "+260 77 9688852",
   stats: [
     { value: "2+", label: "Years of Experience" },
-    { value: "6+", label: "Schools Impacted" },
     { value: "10+", label: "Technologies Mastered" },
   ],
 };
@@ -63,3 +62,12 @@ export const experience = [
     ],
   },
 ];
+
+export const aboutMe = {
+  journey:
+    "I fell in love with full-stack development because of what is achievable with this skill set. I don't just build interesting UIs that catch the user's eye; I design the backend infrastructure that ensures the application is functional, reliable, and delivers seamless services the user never has to worry about.",
+  excitement:
+    "I am currently exploring the world of Data Science and Data Analysis. I'm fascinated by how data helps businesses make informed decisions. Data is crucial for understanding impact and results, and I love the challenge of simplifying complex datasets into actionable insights.",
+  humanSide:
+    "Away from software engineering, I prioritize staying active. You'll usually find me working out at the gym, playing football (soccer!), exploring new places, watching YouTube, or listening to music. These hobbies keep me energized and balanced.",
+};
