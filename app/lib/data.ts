@@ -71,3 +71,40 @@ export const aboutMe = {
   humanSide:
     "Away from software engineering, I prioritize staying active. You'll usually find me working out at the gym, playing football (soccer!), exploring new places, watching YouTube, or listening to music. These hobbies keep me energized and balanced.",
 };
+
+export const projects = [
+  {
+    id: "satedocs",
+    title: "SateDocs",
+    type: "Personal Project",
+    description:
+      "A secure and intuitive web application, in its simplest form, designed to allow users to freely transform images into PDFs. Built with a focus on seamless user experience and robust backend architecture. More featured are being added to add more functionality according to different needs and solve different problems related to document editing and organization.",
+    image: "/satedocs-screenshot.png",
+    liveUrl: "https://sate-docs.vercel.app/",
+    githubUrl: "https://github.com/IsaacHarrison28/SateDocs",
+    techStack: ["React", "TypeScript", "Tailwind CSS", "Node.js", "Express.js"],
+    hasVideo: false,
+  },
+  {
+    id: "kip",
+    title: "Kip",
+    type: "Personal Project",
+    description:
+      "An innovative platform built to solve a unique problem; it allows users to store their links from different sources e.g. social media sources or articles all in one place so they can easily find them whenever needed. Watch the video demo to see how Kip handles real-time data and delivers a flawless user experience from front to back.",
+    image: "/kip-thumbnail.png",
+    videoUrl: "https://www.youtube.com/embed/lfNzrDgvQeA",
+    liveUrl: "https://kip-eosin.vercel.app",
+    githubUrl: "https://github.com/IsaacHarrison28/Kip",
+    techStack: [
+      "React.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Render",
+      "Node.js",
+      "Express.js",
+      "Tailwind CSS",
+      "Supabase",
+    ],
+    hasVideo: true,
+  },
+];
