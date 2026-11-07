@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Isaac Harrison Tembo - Portfolio
 
-## Getting Started
+A modern, responsive, and SEO-optimized personal portfolio website showcasing my work as a Full-Stack Engineer. Built with Next.js, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## 🌐 Live Site
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Check out the live portfolio here: **[https://isaacharrisondev.vercel.app](https://isaacharrisondev.vercel.app)**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Modern UI/UX:** Clean, professional design with smooth animations using Framer Motion.
+- **Dark/Light Mode:** Seamless theme switching using `next-themes` with custom color variables.
+- **Fully Responsive:** Optimized for all devices, from mobile phones to large desktop screens.
+- **SEO Optimized:** Dynamic metadata, Open Graph tags, JSON-LD structured data, and sitemap integration.
+- **Dynamic Projects:** Showcases featured personal projects (SateDocs and Kip) with a custom video modal for project demos.
+- **Functional Contact Form:** Integrated with Web3Forms to receive messages directly to my inbox.
+- **Performance:** Built with Next.js App Router and optimized images using `next/image`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) (v4)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Theme Management:** [next-themes](https://github.com/pacocoursey/next-themes)
+- **Form Handling:** [Web3Forms](https://web3forms.com/)
+- **Deployment:** [Vercel](https://vercel.com/)
 
-To learn more about Next.js, take a look at the following resources:
+## CONTACT
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Live site:** [https://isaacharrisondev.vercel.app](https://isaacharrisondev.vercel.app)
+- **Email:** [isaacharrison2808@gmail.com](mailto:isaacharrison2808@gmail.com)
+- **LinkedIn:** [Isaac Harrison](https://www.linkedin.com/in/isaac-harrison)
+- **GitHub:** [IsaacHarrison28](https://github.com/IsaacHarrison28)
