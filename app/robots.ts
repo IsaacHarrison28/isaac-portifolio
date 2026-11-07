@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/"],
     },
-    sitemap: "https://your-actual-domain.com/sitemap.xml", // REPLACE with your domain
+    sitemap: "https://isaacharrisondev.vercel.app/sitemap.xml",
   };
 }

@@ -13,7 +13,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://your-actual-domain.com"), // REPLACE with your real URL after deployment
+  metadataBase: new URL("https://isaacharrisondev.vercel.app"),
   title: {
     default: "Isaac Harrison Tembo | Full-Stack Engineer",
     template: "%s | Isaac Harrison Tembo",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://your-actual-domain.com",
+    url: "https://isaacharrisondev.vercel.app",
     siteName: "Isaac Harrison Portfolio",
     title: "Isaac Harrison Tembo | Full-Stack Engineer",
     description: "Full-Stack Engineer crafting scalable digital experiences.",
@@ -76,7 +76,7 @@ export default function RootLayout({
                 "@type": "Person",
                 name: "Isaac Harrison Tembo",
                 jobTitle: "Full-Stack Engineer",
-                url: "https://your-actual-domain.com",
+                url: "https://isaacharrisondev.vercel.app",
                 sameAs: [
                   "https://www.linkedin.com/in/isaac-harrison",
                   "https://github.com/IsaacHarrison28",
