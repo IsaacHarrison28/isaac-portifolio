@@ -5,17 +5,22 @@ import Skills from "@/app/components/Skills";
 import About from "@/app/components/About";
 import Portfolio from "@/app/components/Portfolio";
 import Contact from "@/app/components/Contact";
+import Footer from "@/app/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen flex flex-col">
       <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-      <Skills />
-      <Portfolio />
-      <Contact />
+      <div className="flex-grow">
+        {" "}
+        <Hero />
+        <About />
+        <Experience />
+        <Skills />
+        <Portfolio />
+        <Contact />
+      </div>
+      <Footer />
     </main>
   );
 }

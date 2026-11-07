@@ -54,8 +54,8 @@ export default function Hero() {
               Hire Me <ArrowRight size={18} />
             </a>
             <a
-              href="/resume.pdf"
-              download
+              href="/Isaac_Harrison_Resume.pdf"
+              download="Isaac_Harrison_Resume.pdf"
               className="border-2 border-primary text-primary hover:bg-primary/5 px-8 py-3 rounded-lg font-medium flex items-center gap-2 transition-all"
             >
               Download CV <Download size={18} />
