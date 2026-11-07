@@ -5,13 +5,18 @@ import {
   GithubIcon as Github,
 } from "@/app/components/Icons";
 import { personalInfo } from "@/app/lib/data";
+import { useState, useEffect } from "react";
 
 export default function Footer() {
+  const [currentYear, setCurrentYear] = useState<number | null>(null);
+
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-
-  const currentYear = new Date().getFullYear();
 
   const links = [
     { name: "Home", href: "#home" },
@@ -102,7 +107,7 @@ export default function Footer() {
         {/* Bottom Copyright Bar */}
         <div className="pt-8 border-t border-gray-200 dark:border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            © {currentYear} {personalInfo.name}. All rights reserved.
+            © {currentYear || 2026} {personalInfo.name}. All rights reserved.
           </p>
         </div>
       </div>
